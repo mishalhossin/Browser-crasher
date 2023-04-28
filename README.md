@@ -1,7 +1,7 @@
 
 ## ⚠️ Disclaimer ⚠️
 
-⚠️ Please note that the creator of this demonstration does not take any responsibility for any damage caused to your device or browser. Use this code at your own risk. ⚠️ 
+⚠️ Please note that the creator of this demonstration does not take any responsibility for any damage caused to your device or browser. Use this code at your own risk. This project is not intended to cause harm or damage to any user's device or browser. Instead, it is designed to showcase the potential capabilities of JavaScript and HTML in a safe and responsible way. We encourage all users to interact with the code and experiment with the various features and functions, but we also urge caution and restraint in order to ensure that the experience is both enjoyable and secure.⚠️ 
 
 ## JavaScript/HTML Browser-Crasher
 
