@@ -13,5 +13,5 @@ To run the demonstration, simply open the included HTML file in your preferred b
 
 ## System Requirements
 
-We recommend using a high-performance computer with plenty of processing power and memory to achieve the best results. Use caution when running the demonstration, as it may cause your browser to freeze or crash.
+I recommend using a high-performance computer with plenty of processing power and memory to achieve the best results. Use caution when running the demonstration, as it may cause your browser to freeze or crash.
 
